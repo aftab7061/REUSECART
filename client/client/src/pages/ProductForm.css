@@ -1,0 +1,19 @@
+/* pages/ProductForm.css - shared by AddProduct & EditProduct */
+.product-form-card {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 28px;
+}
+.product-form-card h1 {
+  margin-top: 0;
+}
+.product-form-section {
+  margin-bottom: 20px;
+}
+.product-form-section label.section-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  display: block;
+  margin-bottom: 8px;
+}

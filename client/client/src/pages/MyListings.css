@@ -1,0 +1,56 @@
+/* pages/MyListings.css */
+.my-listings-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+@media (min-width: 700px) {
+  .my-listings-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.my-listing-card {
+  display: flex;
+  overflow: hidden;
+}
+.my-listing-image {
+  width: 110px;
+  height: 110px;
+  flex-shrink: 0;
+  background-color: var(--color-surface-alt);
+}
+.my-listing-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-muted);
+}
+.my-listing-body {
+  padding: 12px 14px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.my-listing-body h3 {
+  margin: 0;
+  font-size: 0.95rem;
+}
+.my-listing-price {
+  margin: 0;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+.my-listing-actions {
+  display: flex;
+  gap: 6px;
+  margin-top: 6px;
+  flex-wrap: wrap;
+}
