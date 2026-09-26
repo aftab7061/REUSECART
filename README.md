@@ -1,4 +1,4 @@
-# ReSellHub 🛍️
+# ReUseCart 🛍️
 
 A full-stack MERN marketplace for buying and selling used items.
 
@@ -9,7 +9,7 @@ A full-stack MERN marketplace for buying and selling used items.
 ## 📁 Project Structure
 
 ```
-resellhub/
+reusecart/
 ├── server/                  # Express + MongoDB backend
 │   ├── config/               # DB & Cloudinary config
 │   ├── controllers/          # Route handler logic (MVC "C")
